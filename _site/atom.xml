@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+    <title type="text" xml:lang="en">Ted Vlady</title>
+    <link type="application/atom+xml" rel="self" href="http://localhost:3000/atom.xml"/>
+  
+  <link href="http://localhost:3000/"/>
+  <id>http://localhost:3000/</id>
+  <updated>2020-05-15T12:56:05Z</updated>
+  <author>
+    <name>Ted Vlady</name>
+    <email>tvlady3@gatech.edu</email>
+  </author>
+  <rights type="text">Copyright © 2020 Ted Vlady. All rights reserved.</rights>
+  
+
+</feed>

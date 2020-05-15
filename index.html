@@ -1,0 +1,25 @@
+---
+layout: home
+---
+
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+	  <body>
+	  </body>
+	  <h3>I'm <span id="fancy"><strong>{{ site.author }}</strong></span>, an Aerospace Engineer at Georgia Tech, Class of 2020.</h3>
+	  <h3>I love all things engineering, especially gas turbine engines and aircraft.</h3>
+	  <h3> Have a look at my professional<a href="Resume.pdf" target="_blank"> resume</a>. </h3>
+	  <h3>For more, check out my <a href="{{ site.baseurl }}projects.html"> projects</a>.</h3>
+	  <h4>Contact me at <a href="mailto:{{ site.email }}">email</a>.</h4>
+	{% include social.html %}
+	</div>
+</section>
+
+
+<object type="image/svg+xml" data="skyline.svg" style="position:fixed;bottom:0;opacity:.2;filter: hue-rotate(290deg); z-index:-10;" >
+  Your browser does not support SVG
+</object>
+
